@@ -1,0 +1,11 @@
+.env
+.DS_Store
+*configmap*
+node_modules
+note
+.vscode
+bash_tool/
+*_TMP*
+*_tmp*
+*_memo.*
+*_config.js

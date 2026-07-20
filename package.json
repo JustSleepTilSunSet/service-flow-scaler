@@ -1,0 +1,22 @@
+{
+  "name": "visual-minkube",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:dev": "MODE=DEV node bin/www",
+    "start": "MODE=LOCAL node ./bin/www"
+  },
+  "dependencies": {
+    "@kubernetes/client-node": "^1.4.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.6.1",
+    "ejs": "^3.1.10",
+    "eslint": "^9.39.2",
+    "express": "^4.22.1",
+    "http-errors": "~1.6.3",
+    "morgan": "^1.10.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
