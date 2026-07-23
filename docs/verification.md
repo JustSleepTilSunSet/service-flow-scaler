@@ -2,22 +2,6 @@
 
 This document records how to verify each layer of the application.
 
-## Verification Scope
-
-```mermaid
-flowchart TD
-    subgraph Infra["Infrastructure Layer"]
-        K8S["k8s environment"]
-        PROM["Software infrastructure<br/>(e.g.: prometheus)"]
-        K8S --> PROM
-    end
-
-    subgraph APP["Software Layer"]
-    CLIENT["Client runtime"]
-    end
-    Infra --> APP
-```
-
 ## Prerequisite verification
 
 Verify the installed tools:
